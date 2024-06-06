@@ -1,15 +1,19 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Home from './Home'
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './CombinedPath'
 
 function App() {
   return (
-    <div className="App">
-     
-        <Header/>
-        <Home/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home/>}  />
+          
+
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
