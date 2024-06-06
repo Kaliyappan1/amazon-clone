@@ -1,28 +1,27 @@
-import React from 'react'
-import './Product.css'
-import Tshirt from './asets/image.png'
+import React from "react";
+import "./Product.css";
 
-function Product() {
+function Product({id, title, image, price, rating }) {
   return (
-    <div className='product'>
-        <div className="product_info">
-            <p>Colur Tshort</p>
-            <p className="product_price">
-                <small>$</small>
-                <strong>19.99</strong>
-            </p>
-            <div className="product_rating">
-                <p>⭐</p>
-                <p>⭐</p>
-                <p>⭐</p>
-                <p>⭐</p>
-                <p>⭐</p>
-            </div>
+    <div className="product">
+      <div className="product_info">
+        <p>{title}</p>
+        <p className="product_price">
+          <small>$</small>
+          <strong>{price}</strong>
+        </p>
+        <div className="product_rating">
+          {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <p>⭐</p>
+            ))}
         </div>
-        <img src={Tshirt} alt="" />
-        <button>Add to Basket</button>
+      </div>
+      <img src={image} alt="" />
+      <button>Add to Basket</button>
     </div>
-  )
+  );
 }
 
-export default Product
+export default Product;
