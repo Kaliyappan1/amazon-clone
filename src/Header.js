@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Logo from './asets/image-removebg-preview (1).png'
 import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Header() {
   return (
@@ -26,6 +27,11 @@ function Header() {
         <div className="header_option">
           <span className="header_optionLineOne">Your</span>
           <span className="header_optionLineTwo">Prime</span>
+        </div>
+
+        <div className="header_optionBasket">
+            <ShoppingCartIcon/> 
+            <span className="header_optionLineTwo header_basketCount">0</span>
         </div>
       </div>
     </div>
