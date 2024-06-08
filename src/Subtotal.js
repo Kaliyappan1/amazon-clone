@@ -1,11 +1,16 @@
 import React from 'react'
 import './Subtotal.css'
+import { useStateValue} from './StateProvider'
+import { getBasketTotal } from './reducer';
 
 function Subtotal() {
+
+  const [{basket}, dispatch] = useStateValue();
+
   return (
     <div className='subtotal'>
         <p>
-          Subtotal (0 items): <strong>0</strong>
+          Subtotal ({basket?.length} items): <strong>{getBasketTotal(basket)}</strong>
         </p>
         <small className="subtotal_gift">
           <input type="checkbox" name="" id="" />
