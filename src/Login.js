@@ -7,6 +7,18 @@ function Login() {
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
 
+const signIn = e => {
+  e.preventDefault();
+
+  // some fancy firebase login
+}
+
+const register = e => {
+  e.preventDefault();
+
+  // do some fancy firebase register
+}
+
   return (
     <div className='login'>
       <Link to='/'>
@@ -23,7 +35,7 @@ const [password, setPassword] = useState('');
           <h5>Password</h5>
           <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
 
-          <button className='login_sinInButton'>Signin</button>
+          <button type='submit' onClick={signIn} className='login_sinInButton'>Signin</button>
         </form>
 
         <p>
@@ -32,7 +44,7 @@ const [password, setPassword] = useState('');
           Our cookies Notice and our Interest-Based Ads Notice.
         </p>
 
-        <button className='login_registerButton'>Create your amazon account</button>
+        <button onClick={register} className='login_registerButton'>Create your amazon account</button>
       </div>
     </div>
 
