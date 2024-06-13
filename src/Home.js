@@ -43,7 +43,7 @@ function Home() {
 
                     />
                 <Product
-                id="457"
+                id="453"
                  title="Men's Solid Slim Fit Cotton Casual Shirt with Spread Collar & Full Sleeves (Also"
                   rating={5} 
                   price={22.88}
@@ -51,7 +51,7 @@ function Home() {
 
                     />
                 <Product
-                id="452"
+                id="454"
                  title="Men's Regular Fit Polo"
                   rating={5} 
                   price={65}
@@ -59,7 +59,7 @@ function Home() {
 
                     />
                 <Product
-                id="452"
+                id="455"
                  title="Official Disney: Donald Duck Attitude Men Oversized T-"
                   rating={5} 
                   price={77}
@@ -67,7 +67,7 @@ function Home() {
 
                     />
                 <Product
-                id="452"
+                id="456"
                  title="Varsity Originals Men and Boys Long Sleeve Collared Neck"
                   rating={5} 
                   price={35}
@@ -78,7 +78,7 @@ function Home() {
             </div>
             <div className="home_row">
             <Product
-                id="456"
+                id="457"
                  title="iQOO Neo 7 Pro 5G (Fearless Flame, 8Gb Ram, 128Gb Storage) | Snapdragon 8+ Gen 1 | Independent Gaming Chip | Flagship 50Mp Ois Camera | Premium Leather Design, Orange"
                   rating={4} 
                   price={222.72}
@@ -86,7 +86,7 @@ function Home() {
 
                     />
             <Product
-                id="456"
+                id="458"
                  title="
                  iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity 7200 5G Processor | 64MP Aura Light OIS Camera |..."
                   rating={4} 
@@ -97,7 +97,7 @@ function Home() {
             </div>
             <div className="home_row">
             <Product
-                id="453"
+                id="459"
                  title="Puma Unisex-Adult Smashic Casual Shoe"
                   rating={3} 
                   price={42.55}
@@ -105,7 +105,7 @@ function Home() {
 
                     />
             <Product
-                id="454"
+                id="460"
                  title="Bata Mens I-and Laceup Casual Shoes,"
                   rating={5} 
                   price={66}
@@ -113,7 +113,7 @@ function Home() {
 
                     />
             <Product
-                id="455"
+                id="461"
                  title="U.S. Polo Assn Mens Abor Sneaker"
                   rating={3} 
                   price={44.32}
