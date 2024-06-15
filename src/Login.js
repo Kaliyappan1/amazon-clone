@@ -1,3 +1,4 @@
+// Login.js
 import React, { useState } from 'react';
 import './login.css';
 import Loginimg from './asets/image.png';
@@ -16,7 +17,7 @@ function Login() {
       .then((userCredential) => {
         navigate('/');
       })
-      .catch((error) => alert(error.message));
+      .catch((error) => navigate('/'));
   };
 
   const register = (e) => {
