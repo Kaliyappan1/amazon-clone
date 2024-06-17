@@ -139,6 +139,8 @@ function Home() {
                   image={product5} 
 
                     /> 
+            </div>
+            <div className="home_row">
             <Product
                 id="473"
                  title="U.S. Polo Assn Mens Abor t-shirt"
