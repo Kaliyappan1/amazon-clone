@@ -2,6 +2,7 @@ import React from 'react'
 import './Subtotal.css'
 import { useStateValue} from './StateProvider'
 import { getBasketTotal } from './reducer';
+import { Link } from 'react-router-dom';
 
 function Subtotal() {
 
@@ -26,7 +27,9 @@ function Subtotal() {
           <input type="checkbox"/>
           This order containes a gift
         </small>
+   <Link to="/processcheckout">
     <button>Proceed to Checkout</button>
+   </Link>
     </div>
 
   )
