@@ -1,12 +1,12 @@
 import React from 'react'
 import './Home.css'
 import Product from './Product'
-import home from './asets/homebanner.png'
+import home from './asets/image copy.png'
 import product1 from './asets/product1.png'
 import product2 from './asets/product2.png'
-// import product3 from './asets/product3.png'
-// import product4 from './asets/product4.png'
-// import product5 from './asets/product5.png'
+import product3 from './asets/product3.png'
+import product4 from './asets/product4.png'
+import product5 from './asets/product5.png'
 import product6 from './asets/product6.png'
 import product7 from './asets/product7.png'
 import product8 from './asets/product8.png'
@@ -15,7 +15,7 @@ import product10 from './asets/product10.png'
 import product11 from './asets/product11.png'
 import product12 from './asets/product12.png'
 import product13 from './asets/product13.png'
-// import product14 from './asets/product14.png'
+import product14 from './asets/product14.png'
 import product16 from './asets/product16.png'
 
 
@@ -42,14 +42,7 @@ function Home() {
                   image={product2} 
 
                     />
-                <Product
-                id="453"
-                 title="Men's Solid Slim Fit Cotton Casual Shirt with Spread Collar & Full Sleeves (Also"
-                  rating={5} 
-                  price={22.88}
-                  image={product7} 
-
-                    />
+                
                 <Product
                 id="454"
                  title="Men's Regular Fit Polo"
@@ -119,10 +112,49 @@ function Home() {
                   price={44.32}
                   image={product13} 
 
+                    /> 
+            </div>
+            <div className="home_row">
+            <Product
+                id="470"
+                 title="Puma Unisex-Adult Smashic Casual Shoe"
+                  rating={3} 
+                  price={199}
+                  image={product3} 
+
                     />
-                
-          
-               
+            <Product
+                id="471"
+                 title="Bata Mens I-and Laceup Casual Shoes,"
+                  rating={5} 
+                  price={20}
+                  image={product4} 
+
+                    />
+            <Product
+                id="472"
+                 title="U.S. Polo Assn Mens Abor Sneaker"
+                  rating={3} 
+                  price={110.32}
+                  image={product5} 
+
+                    /> 
+            <Product
+                id="473"
+                 title="U.S. Polo Assn Mens Abor t-shirt"
+                  rating={3} 
+                  price={99.32}
+                  image={product14} 
+
+                    /> 
+            <Product
+                id="453"
+                 title="Men's Solid Slim Fit Cotton Casual Shirt with Spread Collar & Full Sleeves (Also"
+                  rating={5} 
+                  price={88.88}
+                  image={product7} 
+
+                    />
             </div>
         </div>
     </div>
