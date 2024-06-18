@@ -1,15 +1,20 @@
 .product{
     display: flex;
+    border-radius: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     margin: 10px;
     padding: 10px;
     width: 100%;
-    max-height: 400px;
+    max-height: 350px;
     min-height: 400px;
     background-color: white;
     z-index: 1;
+    transition: all 0.2s ease;
+}
+.product:hover{
+    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.182);
 }
 .product > img{
     max-height: 200px;
@@ -20,9 +25,16 @@
 .product > button{
     background: #f0c14b;
     border: 1px solid;
-    margin-top: 10px;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 2px;
+    margin: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: black;
+    transition: all 70ms ease-out ;
+}
+.product > button:active {
+    font-size: 9px;
 }
 .product_price {
     margin-top: 5px;

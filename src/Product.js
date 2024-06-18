@@ -1,6 +1,7 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
+import {motion} from "framer-motion"
 
 function Product({id, title, image, price, rating }) {
 
@@ -20,7 +21,7 @@ function Product({id, title, image, price, rating }) {
       });
   }
   return (
-    <div className="product">
+    <div animate={{x:100}} transition={{type: "spring", stiffness: 100}} className="product">
       <div className="product_info">
         <p>{title}</p>
         <p className="product_price">

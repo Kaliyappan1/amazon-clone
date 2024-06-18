@@ -28,7 +28,7 @@ function Subtotal() {
           This order containes a gift
         </small>
    <Link to="/processcheckout">
-    <button>Proceed to Checkout</button>
+    <button className='subtotal_button'>Proceed to Checkout</button>
    </Link>
     </div>
 

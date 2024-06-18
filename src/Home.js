@@ -26,22 +26,7 @@ function Home() {
             <img className='home_image' src={home} alt="" />
        
             <div className="home_row">
-                <Product
-                id="451"
-                 title="Van Heusen Men's Regular Fit Polo Shirt"
-                  rating={4} 
-                  price={29.99}
-                  image={product1} 
-
-                    />
-                <Product
-                id="452"
-                 title="UNITED COLORS OF BENETTON Men's T-Shirt"
-                  rating={5} 
-                  price={5.88}
-                  image={product2} 
-
-                    />
+                
                 
                 <Product
                 id="454"
@@ -72,7 +57,7 @@ function Home() {
             <div className="home_row">
             <Product
                 id="457"
-                 title="iQOO Neo 7 Pro 5G (Fearless Flame, 8Gb Ram, 128Gb Storage) | Snapdragon 8+ Gen 1 | Independent Gaming Chip | Flagship 50Mp Ois Camera | Premium Leather Design, Orange"
+                 title="iQOO Neo 7 Pro 5G (Fearless Flame, 8Gb Ram, 128Gb Storage) | Snapdragon 8+ Gen 1 | Flagship 50Mp Camera | Premium Leather Design |..."
                   rating={4} 
                   price={222.72}
                   image={product6} 
@@ -81,7 +66,7 @@ function Home() {
             <Product
                 id="458"
                  title="
-                 iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity 7200 5G Processor | 64MP Aura Light OIS Camera |..."
+                 iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 64MP Aura Light OIS Camera |..."
                   rating={4} 
                   price={282.72}
                   image={product16} 
@@ -155,6 +140,24 @@ function Home() {
                   rating={5} 
                   price={88.88}
                   image={product7} 
+
+                    />
+            </div>
+            <div className="home_row">
+            <Product
+                id="451"
+                 title="Van Heusen Men's Regular Fit Polo Shirt"
+                  rating={4} 
+                  price={29.99}
+                  image={product1} 
+
+                    />
+                <Product
+                id="452"
+                 title="UNITED COLORS OF BENETTON Men's T-Shirt"
+                  rating={5} 
+                  price={5.88}
+                  image={product2} 
 
                     />
             </div>
