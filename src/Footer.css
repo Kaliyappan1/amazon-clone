@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+}
+.footer_backtotop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container{
+    display: flex;
+    margin: 20px;
+
+}

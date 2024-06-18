@@ -6,6 +6,7 @@ import Home from "./Home";
 import Checkout from "./Checkout";
 import Login from "./Login";
 import Procedcheckout from "./Procedcheckout";
+// import Footer from "./Footer";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
             path="/"
             element={
               <>
+
                 <Header />
                 <Home />
+                {/* <Footer/> */}
               </>
             }
           />
