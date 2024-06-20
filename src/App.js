@@ -10,6 +10,8 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
+import { type } from "@testing-library/user-event/dist/type";
+import Orders from './Orders'
 // import Footer from "./Footer";
 
 const promise = loadStripe(
@@ -26,9 +28,20 @@ function App() {
 
       if(authUser) {
 
+        dispatch({
+          type: "SET_USER",
+          user: authUser,
+        });
+      }
+      else{
+        dispatch({
+          type: "SET_USER",
+          user: null,
+        })
+
       }
     })
-  })
+  }, []);
 
   return (
     <Router>
@@ -45,6 +58,15 @@ function App() {
               </>
             }
           />
+            <Route
+              path="/Orders"
+              element={
+                <>
+                    <Header />
+                  <Orders />
+                </>
+              }
+            />
           <Route
             path="/login"
             element={
