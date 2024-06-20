@@ -29,3 +29,20 @@
 .payment_address, .payment_items, .payment_details{
     flex: 0.8;
 }
+
+.payment_priceContainer {
+    border: 1px solid 5px rgb(253, 190, 0);
+    width: fit-content;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    background: rgba(198, 132, 9, 0.172);
+    padding: 20px;
+}
+.payment_priceContainer > button{
+    border: 1px solid rgb(171, 157, 0);
+    background: rgba(231, 166, 0, 0.635);
+    padding: 3px;
+    margin: 10px 0;
+    border-radius: 1px;
+}
