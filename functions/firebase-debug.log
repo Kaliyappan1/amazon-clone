@@ -665,3 +665,43 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2024-06-22T11:11:17.281Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
 [debug] [2024-06-22T11:11:17.294Z] [worker-us-central1-api-a148f9e5-99b9-408b-a5c2-fe467aedd1d6]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-a148f9e5-99b9-408b-a5c2-fe467aedd1d6]: exited"}}
 [debug] [2024-06-22T11:11:17.294Z] [worker-us-central1-api-a148f9e5-99b9-408b-a5c2-fe467aedd1d6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-a148f9e5-99b9-408b-a5c2-fe467aedd1d6]: FINISHED"}}
+[debug] [2024-06-22T11:20:18.772Z] File D:\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-06-22T11:20:19.792Z] Validating nodejs source
+[debug] [2024-06-22T11:20:21.089Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0",
+    "stripe": "^15.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-22T11:20:21.090Z] Building nodejs source
+[debug] [2024-06-22T11:20:21.090Z] Failed to find version of module node: reached end of search path D:\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-06-22T11:20:21.091Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-22T11:20:21.099Z] Found firebase-functions binary at 'D:\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8506
+
+[debug] [2024-06-22T11:20:21.801Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}

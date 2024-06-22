@@ -4,9 +4,7 @@ const logger = require("firebase-functions/logger");
 const express = require('express');
 const cors = require('cors');
 const stripe = require('stripe')('sk_test_51PT1TfRxuVmyxJXTzippUU6WocxxQ25i4DtXj2zYzVnult1zcXGMHelFqkShoGHb6qdrabUA8MA0jCFdhTObezmZ00N17gwaLX');
-
 // API
-
 // App config 
 const app = express();
 
